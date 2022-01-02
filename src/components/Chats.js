@@ -40,7 +40,7 @@ export default function Chats() {
         axios.get( 
             'https://api.chatengine.io/users/me/', 
             { headers: {
-                "project-id": process.env.REACT_APP_CHAT_ENGINE_ID,
+                "project-id": 'fee506ec-9145-4ce8-88fb-8133306a760d',
                 "user-name": user.email,
                 "user-secret": user.uid
             }}
@@ -62,7 +62,7 @@ export default function Chats() {
                     axios.post(
                         'https://api.chatengine.io/users/',
                         formdata,
-                        {headers: {"private-key": process.env.REACT_APP_CHAT_ENGINE_KEY}}
+                        {headers: {"private-key": "da5ad2a0-7e98-4b0a-a025-e7cdf6fad6a5"}}
                     )
 
                     .then(() => setLoading(false))
@@ -78,7 +78,7 @@ export default function Chats() {
         <div className="chats-page">
             <div className="nav-bar">
                 <div className="logo-tab">
-                    Unichat
+                    Group Chats
                 </div>
 
                 <div onClick={handleLogout} className="logout-tab">
@@ -89,7 +89,7 @@ export default function Chats() {
 
             <ChatEngine 
                 height="calc(100vh - 66px)"
-                projectID= {process.env.REACT_APP_CHAT_ENGINE_ID}
+                projectID= 'fee506ec-9145-4ce8-88fb-8133306a760d'
                 userName={user.email}
                 userSecret={user.uid}
             />

@@ -68,20 +68,43 @@
 }
 
 .login-button {
-  cursor: pointer;
-  color: white;
-  padding: 12px;
-  border-radius: 8px;
-  display: inline-block;
+display: flex;
+justify-content: center;
+align-items: center;
+width: fit-content;
+margin: 0 auto;
+background-color: white;
+border: 1px solid rgb(223, 223, 223);
+border-radius: 10px;
+padding: 2px 20px;
+
 }
 
-.facebook {
-  background-color: #3b5998;
+.login-button div {
 }
 
-.google {
-  background-color: #4285f4;
-  color: white;
+.login-button div img {
+  width: 20px;
+  margin-top: 5px;
+  padding-right: 10px;
+  border-right: 1px solid rgb(194, 194, 194);
+}
+
+.login-button p {
+  padding-left: 10px;
+}
+button {
+  border: none;
+}
+
+button:focus {
+outline: none;
+border: none;
+}
+
+.google{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
 }
 
 #loading-container {
