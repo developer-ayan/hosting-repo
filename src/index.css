@@ -122,3 +122,53 @@ border: none;
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+footer {
+  border-top: 1px solid rgb(194, 194, 194);
+  line-height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+footer p {
+  font-family: '';
+}
+
+
+
+.facebook {
+background-color: transparent;
+font-size: 22px;
+margin: 0px 1px;
+border-radius: 2px;
+color: rgb(41, 103, 128);
+padding: 5px;
+}
+
+.instagram {
+  background-color: transparent;
+  font-size: 22px;
+  margin: 0px 1px;
+color: #da4080;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.Linkdin {
+  background-color: transparent;
+  font-size: 22px;
+  margin: 0px 1px;
+  color:#2364b1 ;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.Github {
+  background-color: transparent;
+  font-size: 22px;
+  margin: 0px 1px;
+  border-radius: 2px;
+  padding: 5px;
+}
