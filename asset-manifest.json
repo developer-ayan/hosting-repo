@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hosting-repo/static/css/main.6ab6137d.chunk.css",
+    "main.js": "/hosting-repo/static/js/main.5901521c.chunk.js",
+    "main.js.map": "/hosting-repo/static/js/main.5901521c.chunk.js.map",
+    "runtime-main.js": "/hosting-repo/static/js/runtime-main.82001dfc.js",
+    "runtime-main.js.map": "/hosting-repo/static/js/runtime-main.82001dfc.js.map",
+    "static/css/2.ad76a385.chunk.css": "/hosting-repo/static/css/2.ad76a385.chunk.css",
+    "static/js/2.39349a19.chunk.js": "/hosting-repo/static/js/2.39349a19.chunk.js",
+    "static/js/2.39349a19.chunk.js.map": "/hosting-repo/static/js/2.39349a19.chunk.js.map",
+    "index.html": "/hosting-repo/index.html",
+    "precache-manifest.aaa4acb4e511b44632d6e683860ca3cc.js": "/hosting-repo/precache-manifest.aaa4acb4e511b44632d6e683860ca3cc.js",
+    "service-worker.js": "/hosting-repo/service-worker.js",
+    "static/css/2.ad76a385.chunk.css.map": "/hosting-repo/static/css/2.ad76a385.chunk.css.map",
+    "static/css/main.6ab6137d.chunk.css.map": "/hosting-repo/static/css/main.6ab6137d.chunk.css.map",
+    "static/js/2.39349a19.chunk.js.LICENSE.txt": "/hosting-repo/static/js/2.39349a19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82001dfc.js",
+    "static/css/2.ad76a385.chunk.css",
+    "static/js/2.39349a19.chunk.js",
+    "static/css/main.6ab6137d.chunk.css",
+    "static/js/main.5901521c.chunk.js"
+  ]
+}
